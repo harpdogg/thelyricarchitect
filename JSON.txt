@@ -1,0 +1,82 @@
+[
+    {
+        "title": "sports sports sports sports",
+        "genre": "rap",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/sports-sports-sports-sports"
+    },
+    {
+        "title": "oopsie doopsie rap version",
+        "genre": "rap",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/oopsie-doopsie-rap-version?in=user-344154267/sets/rap-hip-gospel"
+    },
+    {
+        "title": "sports sports sports sports 1",
+        "genre": "hiphop",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/sports-sports-sports-sports-1"
+    },
+    {
+        "title": "had to be bad before you were",
+        "genre": "hiphop",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/had-to-be-bad-before-you-were"
+    },
+    {
+        "title": "stone cold eyes a rocker",
+        "genre": "stone cold blues eyes",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/stone-cold-eyes-a-rocker"
+    },
+    {
+        "title": "my lyrics in the air",
+        "genre": "lyrics in the Air",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/my-lyrics-in-the-air"
+    },
+    {
+        "title": "a bottom feeder",
+        "genre": "bottom feeder",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/a-bottom-feeder"
+    },
+    {
+        "title": "i like to play rock",
+        "genre": "play rocvk",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/i-like-to-play-rock"
+    },
+    {
+        "title": "i like to play the blues",
+        "genre": "blues",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/i-like-to-play-the-blues"
+    },
+    {
+        "title": "i like to play play play",
+        "genre": "dub ilike to play",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/i-like-to-play-play-play"
+    },
+    {
+        "title": "i am not going anywhere",
+        "genre": "oh",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/i-am-not-going-anywhere"
+    },
+    {
+        "title": "cross harp 2",
+        "genre": "blues",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/cross-harp-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=09ab3b28e8fa4023b36947bdfafe9869"
+    },
+    {
+        "title": "evil man 1",
+        "genre": "blues",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/evil-man-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=1980e42740264b09bf394684f236ae61"
+    },
+    {
+        "title": "driving me crazy",
+        "genre": "country",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/driving-me-crazy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=a6d3400f69954c46b561eb800d81b431"
+    },
+    {
+        "title": "medd in",
+        "genre": "country",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/medd-in?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=3fcdf1d252cf4926a7ab1bc75b504b53"
+    },
+    {
+        "title": "dont think me crazy 1",
+        "genre": "country",
+        "soundcloud_link": "https://soundcloud.com/user-344154267/dont-think-me-crazy-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=d325f9..."
+    }
+]
