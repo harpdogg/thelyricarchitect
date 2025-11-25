@@ -3,41 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | The Lyric Architect</title>
-    <!-- Load Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Lyric Architect - Home</title>
+    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
     <style>
-        /* Custom styles for a clean, dark musical theme (consistent with catalogue.html) */
         body {
             font-family: 'Inter', sans-serif;
-        }
-        .container-bg {
             background-color: #1a1a2e; /* Deep blue/purple */
+            color: #e4e4e7; /* Light gray text */
         }
         .text-accent {
-            color: #ff6a3d; /* Bright orange/red for contrast */
+            color: #ff6a3d; /* Bright orange/red */
         }
-        .hero-bg {
-            /* Placeholder background image */
-            background-image: url('https://placehold.co/1200x600/1a1a2e/ffffff/png?text=THE+LYRIC+ARCHITECT'); 
+        .hero {
+            background-image: url('[https://placehold.co/1200x600/1a1a2e/ff6a3d?text=THE+LYRIC+ARCHITECT](https://placehold.co/1200x600/1a1a2e/ff6a3d?text=THE+LYRIC+ARCHITECT)');
             background-size: cover;
             background-position: center;
-            position: relative;
-            isolation: isolate;
-        }
-        .hero-bg::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.6); /* Dark overlay */
-            z-index: -1;
-        }
-        .card {
-            background-color: #2c2c54; /* Lighter background for content */
+            min-height: 80vh;
         }
     </style>
 </head>
-<body class="container-bg min-h-screen text-gray-100 flex flex-col">
+<body class="min-h-screen flex flex-col">
 
     <!-- Navigation Bar -->
     <nav class="bg-slate-900 shadow-xl sticky top-0 z-10">
@@ -58,46 +43,46 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-bg py-20 md:py-32 flex items-center justify-center flex-grow">
-        <div class="text-center px-4 max-w-4xl">
-            <h1 class="text-6xl md:text-8xl font-black text-white leading-tight mb-4 tracking-tight">
-                THE LYRIC ARCHITECT
+    <header class="hero flex items-center justify-center text-center">
+        <div class="bg-slate-900/80 p-10 rounded-xl shadow-2xl max-w-2xl mx-auto border-4 border-accent">
+            <h1 class="text-6xl font-extrabold text-white mb-4">
+                Compose Your Story
             </h1>
-            <p class="text-3xl md:text-4xl text-accent font-semibold mb-8">
-                40 Years of Prolific Writing, Ready for Collaboration.
+            <p class="text-xl text-gray-300 mb-8">
+                The home of Rickie Lee Reeves' lyrical architecture. Find the perfect words and soundscapes for your next project.
             </p>
-            <a href="./catalogue.html" class="inline-block bg-accent hover:bg-orange-600 text-slate-900 font-bold py-4 px-10 rounded-full text-xl shadow-2xl transition duration-300 transform hover:scale-105">
-                Explore The Complete Song Catalogue
+            <a href="./catalogue.html" class="bg-accent text-slate-900 font-bold py-3 px-8 rounded-full text-lg hover:bg-orange-600 transition duration-300 shadow-lg transform hover:scale-105">
+                Explore the Catalogue
             </a>
         </div>
     </header>
 
-    <!-- Feature Section (Quick Info) -->
-    <section class="py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <!-- Card 1: Genres -->
-            <div class="card p-6 rounded-xl shadow-lg border-t-4 border-accent/70">
-                <div class="text-4xl mb-4 text-accent">🎵</div>
-                <h3 class="text-xl font-bold mb-2">Diverse Genres</h3>
-                <p class="text-gray-400">From Blues and Rock to Hip Hop and Gospel, our catalogue covers a wide musical spectrum.</p>
-            </div>
-            <!-- Card 2: Experience -->
-            <div class="card p-6 rounded-xl shadow-lg border-t-4 border-accent/70">
-                <div class="text-4xl mb-4 text-accent">✍️</div>
-                <h3 class="text-xl font-bold mb-2">Four Decades of Lyrics</h3>
-                <p class="text-gray-400">Over 40 years spent perfecting the art of lyricism and songwriting.</p>
-            </div>
-            <!-- Card 3: Licensing -->
-            <div class="card p-6 rounded-xl shadow-lg border-t-4 border-accent/70">
-                <div class="text-4xl mb-4 text-accent">💼</div>
-                <h3 class="text-xl font-bold mb-2">Ready to Collaborate</h3>
-                <p class="text-gray-400">Seeking artists, producers, and licensing opportunities for every track.</p>
+    <!-- Featured Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-2 border-accent inline-block pb-2">Featured Genres</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <!-- Card 1: Rock -->
+                <div class="bg-[#2c2c54] p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:translate-y-[-5px]">
+                    <h3 class="text-3xl font-bold text-accent mb-3">Rock</h3>
+                    <p class="text-gray-400">High-energy tracks with driving guitar riffs and powerful lyrics.</p>
+                </div>
+                <!-- Card 2: Blues -->
+                <div class="bg-[#2c2c54] p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:translate-y-[-5px]">
+                    <h3 class="text-3xl font-bold text-accent mb-3">Blues</h3>
+                    <p class="text-gray-400">Soulful, heartfelt stories captured through classic harmonica and rhythm.</p>
+                </div>
+                <!-- Card 3: Hip Hop -->
+                <div class="bg-[#2c2c54] p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:translate-y-[-5px]">
+                    <h3 class="text-3xl font-bold text-accent mb-3">Hip Hop / Rap</h3>
+                    <p class="text-gray-400">Sharp, modern verses and infectious beats for contemporary media.</p>
+                </div>
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
-    <footer class="bg-slate-900 mt-8 py-4 text-center text-gray-400 text-sm">
+    <footer class="bg-slate-900 mt-auto py-4 text-center text-gray-400 text-sm">
         <p>&copy; 2024 The Lyric Architect. All Rights Reserved. | Rickie Lee Reeves</p>
     </footer>
 
